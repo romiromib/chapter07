@@ -23,7 +23,7 @@ public class Client {
 		
 		//connect 시도
 		System.out.println("[서버에 연결을 요청합니다]");//
-		socket.connect(new InetSocketAddress("192.168.0.31",10001));
+		socket.connect(new InetSocketAddress("192.168.0.43",10001));
 
 		System.out.println("[서버에 연결 되었습니다]");
 		
